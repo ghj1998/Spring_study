@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.gao.pojo.Student">
+<!--        普通值注入-->
+        <property name="name" value="gao"/>
+<!--        Bean注入，ref-->
+        <property name="address" ref="address"/>
+<!--        数组注入，array,value-->
+        <property name="books">
+            <array>
+                <value>红楼梦</value>
+                <value>西游记</value>
+                <value>三体</value>
+            </array>
+        </property>
+<!--        list注入,list,value-->
+        <property name="hobbys">
+            <list>
+                <value>听歌</value>
+                <value>看电视</value>
+            </list>
+        </property>
+<!--        map注入-->
+        <property name="card">
+            <map>
+                <entry key="身份证" value="123456"/>
+                <entry key="银行卡" value="13456"/>
+            </map>
+        </property>
+<!--        set注入-->
+         <property name="games">
+             <set>
+                 <value>LOL</value>
+                 <value>COC</value>
+                 <value>COC</value>
+             </set>
+         </property>
+<!--        null-->
+        <property name="wife">
+            <null></null>
+        </property>
+<!--        properties  key=value的格式-->
+        <property name="info">
+            <props>
+                <prop key="学号">20190525</prop>
+                <prop key="姓名">gao</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="address" class="com.gao.pojo.Address">
+        <property name="address" value="shanxi"/>
+    </bean>
+
+</beans>

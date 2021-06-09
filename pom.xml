@@ -11,8 +11,8 @@
     <modules>
         <module>Spring_IOC1</module>
         <module>HelloSpring</module>
-        <module>SpringIOC2</module>
         <module>Spring_IOC2</module>
+        <module>Spring_DI</module>
     </modules>
 
     <properties>
