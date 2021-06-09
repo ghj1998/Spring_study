@@ -1,0 +1,4 @@
+# Project exclude paths
+/HelloSpring/target/
+/Spring_IOC1/target/
+/Spring_IOC2/target/
