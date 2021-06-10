@@ -13,6 +13,11 @@
         <module>HelloSpring</module>
         <module>Spring_IOC2</module>
         <module>Spring_DI</module>
+        <module>p_namespace_c_namespace</module>
+        <module>Spring_autowire</module>
+        <module>Spring_anno_autowire</module>
+        <module>Spring_anno</module>
+        <module>Spring_JavaConfig</module>
     </modules>
 
     <properties>

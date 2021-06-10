@@ -8,8 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HelloSpring" />
         <module name="Spring_DI" />
+        <module name="Spring_anno_autowire" />
+        <module name="Spring_anno" />
+        <module name="p_namespace_c_namespace" />
+        <module name="Spring_JavaConfig" />
         <module name="Spring_IOC2" />
         <module name="Spring_IOC1" />
+        <module name="Spring_autowire" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
