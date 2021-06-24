@@ -18,6 +18,7 @@
         <module>Spring_anno_autowire</module>
         <module>Spring_anno</module>
         <module>Spring_JavaConfig</module>
+        <module>Spring_AOP</module>
     </modules>
 
     <properties>
