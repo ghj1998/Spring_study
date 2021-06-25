@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -11,7 +12,9 @@
         <module name="Spring_DI" />
         <module name="Spring_anno_autowire" />
         <module name="Spring_anno" />
+        <module name="Spring_Mybatis2_tansaction" />
         <module name="p_namespace_c_namespace" />
+        <module name="Spring_Mybatis" />
         <module name="Spring_JavaConfig" />
         <module name="Spring_IOC2" />
         <module name="Spring_IOC1" />

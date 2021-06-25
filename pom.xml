@@ -19,6 +19,8 @@
         <module>Spring_anno</module>
         <module>Spring_JavaConfig</module>
         <module>Spring_AOP</module>
+        <module>Spring_Mybatis</module>
+        <module>Spring_Mybatis2_tansaction</module>
     </modules>
 
     <properties>
